@@ -97,6 +97,7 @@ def do_connect(ssid, password):
         print('.', end='')
     if connected:
         print('\nConnected. Network config: ', wlan_sta.ifconfig())
+        wlan_ap.active(False)
     else:
         print('\nFailed. Not Connected to: ' + ssid)
     return connected
