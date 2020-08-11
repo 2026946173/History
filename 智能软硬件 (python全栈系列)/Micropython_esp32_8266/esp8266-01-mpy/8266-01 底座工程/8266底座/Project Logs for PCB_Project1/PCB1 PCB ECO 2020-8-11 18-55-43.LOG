@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=Net5v_1 Pin=VR0-1
+Removed Pin From Net: NetName=NetC0_1 Pin=VR0-2
+Removed Pin From Net: NetName=NetC0_1 Pin=VR0-2
+Removed Pin From Net: NetName=Net3-3_1 Pin=VR0-3
+Removed Member From Class: ClassName=Sheet1 Member=VR0
+Added Component: Designator=VR?(LC-SOT-223)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "供应商链接"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.szlcsc.com/product/details_6652.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOT-223"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SuppliersPartNumber"; Value = "C6186"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC0_1 Pin=VR?-1
+Added Pin To Net: NetName=Net3-3_1 Pin=VR?-2
+Added Pin To Net: NetName=Net3-3_1 Pin=VR?-2
+Added Pin To Net: NetName=Net5v_1 Pin=VR?-3
+Added Member To Class: ClassName=Sheet1 Member=Component VR? AMS1117-3.3
